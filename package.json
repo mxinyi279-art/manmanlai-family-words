@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:cloudbase": "vite build --base=/manmanlai-v3/",
     "build:offline": "vite build --base=/",
     "start:offline": "node scripts/offline-server.mjs",
     "preview": "vite preview"

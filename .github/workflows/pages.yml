@@ -28,7 +28,7 @@ jobs:
           run_install: false
       - uses: actions/configure-pages@v5
       - run: pnpm install --frozen-lockfile
-      - run: VITE_BASE="/${{ github.event.repository.name }}/" pnpm build
+      - run: pnpm build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
