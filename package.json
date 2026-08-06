@@ -6,16 +6,19 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:cloudbase": "vite build --base=/",
+    "build:offline": "vite build --base=/",
+    "start:offline": "node scripts/offline-server.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@supabase/supabase-js": "2.110.8",
+    "@cloudbase/js-sdk": "^3.7.1",
     "react": "19.2.6",
     "react-dom": "19.2.6"
   },
   "devDependencies": {
+    "@cloudbase/cli": "^3.7.0",
     "@vitejs/plugin-react": "6.0.2",
+    "rolldown": "^1.2.3",
     "vite": "8.0.13"
   }
 }

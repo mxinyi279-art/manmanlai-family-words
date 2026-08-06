@@ -1,0 +1,14 @@
+{
+  "name": "慢慢来｜家庭词语练习",
+  "short_name": "慢慢来",
+  "description": "可完全离线使用的家庭词语认知练习",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f4ec",
+  "theme_color": "#477565",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "pictograms/apple.png", "sizes": "any", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
